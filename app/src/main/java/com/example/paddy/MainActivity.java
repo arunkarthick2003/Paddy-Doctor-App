@@ -61,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
     private Map<String, String> leaderModels;
     private List<String> predictions;
     private List<Double> confidences;
-    private final String url="https://api.openweathermap.org/data/2.5/forecast";
-    private final String appId="51441a4263c66c074264c00aeba6e444";
     DecimalFormat df=new DecimalFormat("#.##");
 
     //Database
