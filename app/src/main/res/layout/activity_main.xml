@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Paddy classifier"
+        android:id="@+id/title"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logoImg"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/logoImg"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_below="@id/imageView"
+        android:id="@+id/selectBtn"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"/>
+    <Button
+        android:id="@+id/predictBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"/>
+
+    <TextView
+        android:id="@+id/model1Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/predictBtn"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Model1 Result" />
+    <TextView
+        android:id="@+id/model2Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/model1Result"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="Model2 Result" />
+    <TextView
+        android:id="@+id/model3Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/model2Result"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="Model3 Result" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/model3Result"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Model Result" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/historyBtn"
+        android:text="Show History"
+        android:layout_below="@+id/result"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/measuresBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Measures" />
+
+</RelativeLayout>

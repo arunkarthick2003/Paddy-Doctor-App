@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/textViewPrediction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction 1"/>
+
+    <TextView
+        android:id="@+id/textViewPrediction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction 2"/>
+
+    <TextView
+        android:id="@+id/textViewPrediction3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediction 3"/>
+
+    <TextView
+        android:id="@+id/textViewFinalPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Prediction"/>
+
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time"/>
+</LinearLayout>
